@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "adobe-config-manager"
-version = "1.0.33"
+version = "1.0.35"
 description = "Vaibhav Config Manager lib"
 authors = ["Vaibhav Rai"]
 packages = [
     { include = "scripts" },
+    { include = "adobe_config_mgmt_lib" },
 ]
 
 [tool.poetry.dependencies]
